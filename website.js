@@ -47,6 +47,10 @@ function change(element_id, toDo){
     }
 }
 
-function openGit(url){
+function openURL(url){
     window.open(url, "tab");
+}
+
+function openPDF(pfad){
+    window.open(pfad, "tab")
 }

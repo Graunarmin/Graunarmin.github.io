@@ -1,5 +1,5 @@
 *{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #HomeButton{
@@ -11,6 +11,7 @@
 	margin-bottom: 50px;
 	color: lightgray;
 	font-size: 40px;
+	font-family: 'Playfair Display', serif;
 }
 
 .Anmerkung {
@@ -40,6 +41,7 @@
 	margin-top: 50px;
 	color: gray;
 	font-size: 25px;
+	font-family: 'Playfair Display', serif;
 }
 
 .links{
@@ -50,14 +52,14 @@
 	font-size: 20px;
 }
 
-.CodeButtons{
+.LinkButtons{
 	cursor: pointer;
 	margin: 4px;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-.CodeButtons:hover{
+.LinkButtons:hover{
 	box-shadow: 0 0 3px 1px rgb(207, 73, 117);
 }
 

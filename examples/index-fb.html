@@ -1,0 +1,295 @@
+
+<!--https://www.youtube.com/watch?v=vQAvjof1oe4
+https://github.com/kevin-powell/responsive-design-patterns/blob/master/02-finished-demo/index.html
+-->
+<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home - Johanna Sacher</title>
+		<link rel="stylesheet" type="text/css" href="css/style-fb.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Playfair+Display:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="css/style-fb.css">
+		<script src = "../website.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<h2><a href="index.html" id="HomeButton">HOME</a></h2>
+			<nav>
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#services">Projects</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			
+			<section class="intro bg-dark">
+				<div class="flex-container">
+					<div class="split">
+						<div class="flow-content big-column about-me">
+							<h3>About me</h3>
+							<p>I'm a Computer Science Student, just finished my B.Sc. and starting my M.Sc.. In my studies I already worked on different projects from various fields. My areas of interest are mainly Data Science and Game Developement. 
+								Currently I am mainly focusing on my Master's degree, on expanding my Python skills and my knowledge in Game Developement.
+							</p>
+						</div>
+						<div class="widgets">
+							<div class="widget bg-dark flow-content">
+								<h3>Online Profiles</h3>
+								<ul>
+									<li>
+										<a href="https://github.com/Graunarmin">GitHub</a>
+									</li>
+									<li>
+										<a href="#">Xing</a>
+									</li>
+									<li>
+										<a href="#">LinkedIn</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="projects">
+				<div class="flex-container">
+					<h2>Projekte</h2>
+					<div class ="column-box">
+						<h3>Game-Projekte</h3>
+						<ul>
+							<li class="links"><p>Lost Station Game (2020) &nbsp; 
+								| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/LostStation')"> &nbsp; 
+								|&nbsp; <img alt="" border="0" class="LinkButtons" id="ItchIOButton" src="images/itch-badge-color.png" style="height:28px" onclick="openURL('https://graunarmin.itch.io/lost-station')"> 
+								|&nbsp; <img alt="" border="0" class="LinkButtons" id="YouTubeButton" src="images/YouTube.png" style="height:28px" onclick="openURL('https://www.youtube.com/watch?v=6dag0iq_dO0')"></p>
+							</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="flex-container">
+					<div class="split flow-content">
+
+						<div class="flow-content">
+							<h2>Visualisierungen/Data Science</h2>
+							<ul>
+								<li class="links"><p>Diskursmarker in schriftlichem & akustischem Diskurs (Bachelorarbeit, 2020) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="PDFButton" src="images/pdf.png" style="height:28px" onclick="openPDF('Material/SDR_Doku.pdf')"> &nbsp; 
+									|&nbsp; <img alt="" border="0" class="LinkButtons" id="YouTubeButton" src="images/YouTube.png" style="height:28px" onclick="openURL('https://www.youtube.com/watch?v=oerUj62EKH0')"> &nbsp;</p>
+								</li>
+								<li class="links"><p>The Spells of the Wizarding World (2019) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/VisuProject_HarryPotterSpells')"> &nbsp; 
+									|&nbsp;  <a target="_blank" rel="noopener noreferrer" class="LinkButtons" href='https://graunarmin.github.io/VisuProject_HarryPotterSpells/'>Visualisierung</a></p>
+								</li>
+								<li class="links"><p>Visualize Great Minds (2018) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Val3r1e/GreatMinds')"> &nbsp; 
+									|&nbsp;  <a target="_blank" rel="noopener noreferrer" class="LinkButtons" href='https://graunarmin.github.io/GoetheLetters/'>Visualisierung</a></p>
+								</li>
+							</ul>
+						</div>
+
+						<div class="flow-content">
+							<h2>Andere</h2>
+							<ul>
+								<li class="links"><p>Soundrecording mit Garageband: Cloud Atlas Sextet (2021) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="PDFButton" src="images/pdf.png" style="height:28px" onclick="openPDF('Material/SDR_Doku.pdf')"> &nbsp; 
+									|&nbsp; <img alt="" border="0" class="LinkButtons" id="YouTubeButton" src="images/YouTube.png" style="height:28px" onclick="openURL('https://www.youtube.com/watch?v=oerUj62EKH0')"> &nbsp;</p>
+								</li>
+								<li class="links"><p>Smartlock Picking (2019) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="PDFButton" src="images/pdf.png" style="height:28px" onclick="openPDF('Material/SmartLock_Picking.pdf')"> &nbsp;</p>
+								</li>
+								<li class="links"><p>Solar System (2018) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/CGLab_SolarSystem')"> &nbsp;</p>
+								</li>
+								<li class="links"><p>Raytracer (2017) &nbsp; 
+									| &nbsp;<img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/Raytracer_SS17')"> </p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="qualifications bg-light">
+				<div class="flex-container">
+					<div class="split">
+						<div class="flow-content big-column quali">
+							<h2>Qualifikationen</h2>
+							<h3>Studium</h3>
+							<ul>
+								<li>
+									<p>2020: B.Sc. Medieninformatik an der Bauhaus-Uni Weimar</p>>
+								</li>
+								<li>
+									<p>2024: M.Sc. Interaktive Medien an der Martin-Luther Universität Halle-Wittenberg</p>
+								</li>
+							</ul>
+							<h3>Ausbildung</h3>
+							<ul>
+								<li>
+									<p>2016: Abschluss der Ausbildung zur Medienkauffrau Digital und Print beim Carlsen Verlag</p>>
+								</li>
+								<li>
+									<p>2013: Abitur</p>
+								</li>
+							</ul>
+						</div>
+						<div class="widgets publications">
+							<div class="widget bg-dark flow-content">
+								<h2>Bachelorarbeit</h2>
+								<ul>
+									<li class="links"><a href="https://webis.de/for-students/completed-theses.html#sacher_2021">Bachelorarbeit: Diskursmarker in schriftlichem und akustischem Diskurs</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+
+
+		</main>
+
+		<footer class="primary-footer bg-dark">
+			<div class="flex-container">
+			  <h2>Kontakt</h2>
+			  <div class="split">
+				<div class="big-column">
+				  <p>Lorem ipsum dolor adipisicing elit. Hic, necessitatibus! sit amet consectetur, adipisicing elit. Minima,
+					libero?</p>
+				</div>
+				<div>
+				  <h3>Getting around</h3>
+				  <ul class="footer-list">
+					<li>Lorem.</li>
+					<li>Quisquam?</li>
+					<li>Doloremque?</li>
+				  </ul>
+				</div>
+				<div>
+				  <h3>Other things</h3>
+				  <ul class="footer-list">
+					<li>Lorem.</li>
+					<li>Officiis.</li>
+					<li>Voluptatibus?</li>
+					<li>Similique?</li>
+				  </ul>
+				</div>
+				<div>
+				  <h3>And more</h3>
+				  <ul>
+					<li>Lorem.</li>
+					<li>Beatae?</li>
+					<li>Hic.</li>
+					<li>Eveniet?</li>
+				  </ul>
+				</div>
+			  </div>
+			</div>
+		  </footer>
+		<!--
+		<div class="flexbox-container">
+			<div class="flexbox-item flexbox-personal">
+				<div class="flexbox-item flexbox-aboutme">
+					<p>About Me</p>
+				</div>
+				<div class="flexbox-item flexbox-profiles">
+					<p>Some Links</p>
+				</div>
+			</div>
+			<div class="flexbox-item flexbox-degree">
+				<li class="NavHeadline">Abschlussarbeiten</li>
+				<ul>
+					<li class="links"><a href="https://webis.de/for-students/completed-theses.html#sacher_2021">Bachelorarbeit: Diskursmarker in schriftlichem und akustischem Diskurs</a></li>
+				</ul>
+			</div>
+			<div class="flexbox-item flexbox-projects">
+				<div class="flexbox-item flexbox-project-headings">
+					<li class="NavHeadline">Projekte</li>
+				</div>
+				<div class="flexbox-item flexbox-project-content">
+					<div class="flexbox-specialprojects">
+						<div class="flexbox-item flexbox-games">
+							<li class="NavHeadline">Games</li>
+							<ul>
+								<li class="links"><p>Lost Station Game (WiSe19/20) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/LostStation')"> &nbsp; 
+									|&nbsp; <img alt="" border="0" class="LinkButtons" id="ItchIOButton" src="images/itch-badge-color.png" style="height:28px" onclick="openURL('https://graunarmin.itch.io/lost-station')"> 
+									|&nbsp; <img alt="" border="0" class="LinkButtons" id="YouTubeButton" src="images/YouTube.png" style="height:28px" onclick="openURL('https://www.youtube.com/watch?v=6dag0iq_dO0')"></p>
+								</li>
+							</ul>
+						</div>
+						<div class="flexbox-item flexbox-visualizations">
+							<li class="NavHeadline">Visualisierungen</li>
+							<ul>
+								<li class="links"><p>The Spells of the Wizarding World (SS19) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/VisuProject_HarryPotterSpells')"> &nbsp; 
+									|&nbsp;  <a target="_blank" rel="noopener noreferrer" class="LinkButtons" href='https://graunarmin.github.io/VisuProject_HarryPotterSpells/'>Visualisierung</a></p>
+								</li>
+								<li class="links"><p>Visualize Great Minds (SS18) &nbsp; 
+									| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Val3r1e/GreatMinds')"> &nbsp; 
+									|&nbsp;  <a target="_blank" rel="noopener noreferrer" class="LinkButtons" href='https://graunarmin.github.io/GoetheLetters/'>Visualisierung</a></p>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<div class="flexbox-item flexbox-other">
+						<li class="NavHeadline">Andere</li>
+						<ul>
+							<li class="links"><p>Soundrecording mit Garageband: Cloud Atlas Sextet (SS21) &nbsp; 
+								| &nbsp; <img alt="" border="0" class="LinkButtons" id="PDFButton" src="images/pdf.png" style="height:28px" onclick="openPDF('Material/SDR_Doku.pdf')"> &nbsp; 
+								|&nbsp; <img alt="" border="0" class="LinkButtons" id="YouTubeButton" src="images/YouTube.png" style="height:28px" onclick="openURL('https://www.youtube.com/watch?v=oerUj62EKH0')"> &nbsp;</p>
+							</li>
+							<li class="links"><p>Smartlock Picking (SS19) &nbsp; 
+								| &nbsp; <img alt="" border="0" class="LinkButtons" id="PDFButton" src="images/pdf.png" style="height:28px" onclick="openPDF('Material/SmartLock_Picking.pdf')"> &nbsp;</p>
+							</li>
+							<li class="links"><p>Solar System (WiSe18/19) &nbsp; 
+								| &nbsp; <img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/CGLab_SolarSystem')"> &nbsp;</p>
+							</li>
+							<li class="links"><p>Raytracer (SS17) &nbsp; 
+								| &nbsp;<img alt="" border="0" class="LinkButtons" id="GitButton" src="images/GitHub.png" style="height:28px" onclick="openURL('https://github.com/Graunarmin/Raytracer_SS17')"> </p>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<div class="MainNav">
+			
+
+		</div>
+
+		<div id="sidebar">
+			<span class="sideClass" href="#" id="sidenav">
+			<ol>
+				<img alt="" border="0" class="MediaButtons" id="GitButton" src="images/Octocat.png" style="height:65px" onclick="openGit('https://github.com/Graunarmin')">
+				<a class="Mail" href="mailto:johanna.sacher@student.uni-halle.de">E-Mail me</a>
+				<li class="break"></li>
+				<li id="copyright">&copy; Johanna Sacher 2021</li>
+			</ol>
+		    </span>
+		</div>
+	-->		
+		<!-- <footer><p>Kontakt: <a class="Mail" href="mailto:johanna.sacher@uni-weimar.de">E-Mail</a> | &copy; Johanna Sacher 2018</p></footer> -->
+	
+	</body>
+</html>
+<!-- 
+ -->
